@@ -2,8 +2,8 @@
 //  ViewController.m
 //  heartLive
 //
-//  Created by zhujian on 2019/3/27.
-//  Copyright © 2019 zhujian. All rights reserved.
+//  Created by Macbook Pro on 2019/3/27.
+//  Copyright © 2019 Macbook Pro. All rights reserved.
 //
 #import "heartLive.h"
 #import "ViewController.h"
@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"1");
     [self.view addSubview:self.heartLive];
     self.heartLive.isPass = YES;
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:0.3f target:self selector:@selector(startTime) userInfo:nil repeats:YES];
